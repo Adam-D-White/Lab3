@@ -26,7 +26,7 @@ namespace Lab3
             while (willContinue == "y")
 
             {
-                if (userNumber >= 101)
+                if (userNumber >= 101 || userNumber <= 1)
                 {
                     Console.WriteLine("Come on, read the directions " + userName + "!");
                 }
@@ -71,7 +71,7 @@ namespace Lab3
 
             }
             Console.WriteLine("Thank you for participating " + userName + ".");
-
+            Console.ReadLine();
             
         }
     }
